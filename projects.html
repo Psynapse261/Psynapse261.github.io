@@ -57,6 +57,55 @@
 							<section id="two" class="spotlights">
 								<section>
 									<a class="image">
+										<img src="images/proj-conway.jpg" alt="" data-position="center center" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>Conway's Game of Life</h3>
+											</header>
+											<p>
+												As a learning endeavor, I implemented the classic mathematical simulation of Conway's Game of Life in C++.
+												The goal of this project was to learn the depths of computer architecture and get familiar with emerging
+												SIMD technologies like AVX. I implemented the game in the traditional way and then optimized it using AVX,
+												understanding the challenges of using vectorization intrinsics and overcoming them through changes in the 
+												algorithm approach.										
+												<ul>
+													<li>Computer Architecture</li>
+													<li>SIMD with AVX</li>
+													<li>Compiler Intrinsics</li>
+													<a href="https://github.com/Psynapse261/ConwaysGameOfLife" class="button" style="float: right;">GitHub</a>
+												</ul>
+											</p>
+										</div>
+									</div>
+								</section>
+								<section>
+									<a class="image">
+										<img src="images/proj-sml.jpg" alt="" data-position="center center" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>Music Genre Classifier</h3>
+											</header>
+											<p>
+												As part of a team, I trained multiple machine learning models for classiying music into genres according to playback data
+												like beats per minute. We trained multiple models like K-Nearest Neighbours, Support Vector Machines, Random Forest, XG Boost
+												and also a Convolutional Neural Network on a 30 second audio dataset and a 3 second audio dataset. This resulted in an interesting
+												finding of almost all models being more accurate on the shorter length datapoints, with the highest accuracy being 91%.										
+												<ul>
+													<li>Machine Learning</li>
+													<li>Support Vector Machines</li>
+													<li>Convolutional Neural Networks</li>
+													<a href="https://github.com/Psynapse261/music_genre_classifier" class="button" style="float: right;">GitHub</a>
+												</ul>
+											</p>
+										</div>
+									</div>
+								</section>
+								<section>
+									<a class="image">
 										<img src="images/proj-os.jpg" alt="" data-position="center center" />
 									</a>
 									<div class="content">
@@ -74,7 +123,30 @@
 													<li>Virtual Memory and Paging</li>
 													<li>Process Scheduling</li>
 													<li>Virtual Machine Monitoring</li>
-													<a href="https://github.com/Psynapse261/xv6-features" class="button" style="float: right;">GitHub</a>
+												</ul>
+											</p>
+										</div>
+									</div>
+								</section>
+								<section>
+									<a class="image">
+										<img src="images/proj-dv.jpg" alt="" data-position="center center" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>AxiSketcher: Interactive Nonlinear Axis Mapping of Visualizations</h3>
+											</header>
+											<p>
+												As part of a team, I implemented the Axisketcher visualization system from 2017 with an extension to the original paper.
+												This paper was chosen by our team because it provided a unique way of nonlinear axis transformation, and could be applied 
+												to almost any dataset based around preferential data analysis. I implemented the Radar Plot extension with its modular features,
+												and also implemented the nonlinear axis mapping algorithms using K-Nearest Neighbours.										
+												<ul>
+													<li>Data Visualization</li>
+													<li>Frontend Web Development</li>
+													<li>D3.js</li>
+													<a href="DV_PersonalReflectionReport.pdf" class="button" style="float: right;">Report</a>
 												</ul>
 											</p>
 										</div>
@@ -90,7 +162,7 @@
 												<h3>Edge based video super resolution on FABRIC</h3>
 											</header>
 											<p>
-												I am developing a comprehensive framework for edge-based video super resolution using P4-enabled 
+												I developed a comprehensive framework for edge-based video super resolution using P4-enabled 
 												data plane switches, aiming to enhance the visual quality of streaming video content in 
 												real-time while maintaining reduced network load. I also implemented optimized packet processing routines 
 												in P4, focusing on efficient handling of video frames and the extraction of relevant features 
